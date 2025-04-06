@@ -1,6 +1,6 @@
 #pedir ao user dois numeros 
 num1 = int(input("digite o primeiro número:"))
-num2 = int (input("digite o segundo número:"))
+num2 = int(input("digite o segundo número:"))
 
 if num1==num2:
     print("Os Números sao iguais")
