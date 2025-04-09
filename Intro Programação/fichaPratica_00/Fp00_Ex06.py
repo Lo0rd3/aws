@@ -2,7 +2,13 @@
 valor1 = int(input("digite o primeiro valor:"))
 valor2 = int(input("digite o segundo valor:"))
 
-#trocar dos valores
+#troca com variavel extra
+
+#temporarioV = valor1
+#valor1=valor2
+#valor2 = temporarioV
+
+#trocar dos valores sem variavel
 valor1 = valor1 + valor2
 valor2 = valor1 - valor2
 valor1 = valor1 - valor2

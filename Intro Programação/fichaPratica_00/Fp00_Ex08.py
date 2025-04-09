@@ -14,7 +14,7 @@ track4Sec = (int(track4.split(':')[0])*3600)+ (int(track4.split(':')[1])*60) + i
 track5Sec = (int(track5.split(':')[0])*3600)+ (int(track5.split(':')[1])*60) + int(track5.split(':')[2])
 
 
-#calcular a duração total do album EM segundos
+#calcular a duração total do album em segundos
 
 albumSec = int(track1Sec + track2Sec + track3Sec + track4Sec + track5Sec)
 
