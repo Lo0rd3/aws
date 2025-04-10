@@ -1,7 +1,7 @@
 #pedir ao user para inserir posição
 posicao = int(input("Por favor inserir posição do piloto:"))
 
-#calculo dos pontos 
+#calculo dos pontos & print 
 if posicao == 1 :
     print("Posição atual:",posicao)
     print("Pontos: 10")
