@@ -1,10 +1,12 @@
 #pedir ao user um numero inteiro
 num=int(input("introduzir um numero: "))
 
-#determinar numero minimo e numero maximo
+#determinar numero minimo e numero maximo & print
 min= (num-5)
 max= (num+5)
-
-while num>min:
-    num-=1
-    print (num)
+numAtual=min
+#print dos números
+while numAtual<=max:
+    if numAtual != num:
+        print (numAtual)
+    numAtual += 1
