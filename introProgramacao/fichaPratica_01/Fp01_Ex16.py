@@ -1,5 +1,5 @@
 #pedir ao user para inserir o valor a 
-valor=int(input"Por favor inserir valor")
+valor=int(input("Por favor inserir valor"))
 
 #calcular quantidade de notas de cada denominação
 
