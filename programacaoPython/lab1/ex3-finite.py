@@ -21,7 +21,7 @@ for i in range(students):
     total+=score
 
 average=total/students
-print(f"The average score of your students is: {average}")
+print(f"The average score of your students is: {average:.2f}")
 
 
 

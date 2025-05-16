@@ -14,7 +14,7 @@ for i in range(students):
             print("Wrong score! please input a grade betwen 0 and 20")
         else:
             break
-    if score<=9.5:
+    if score<9.5:
         negative+=1
     else:
         positive+=1

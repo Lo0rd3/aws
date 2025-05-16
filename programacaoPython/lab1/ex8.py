@@ -1,9 +1,9 @@
-bigPair=0
+bigPair=None
 oddCounter=0
 while oddCounter<5:
     number=int(input("Please input a number:"))
     if number%2==0:
-        if number>bigPair:
+        if bigPair is None or number>bigPair:
             bigPair=number
     else:
         oddCounter+=1
